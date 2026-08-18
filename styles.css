@@ -1,0 +1,149 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style: none;
+    text-decoration:none;
+    
+}
+.header{
+    background-color:#1F2937;
+}
+.header-top{
+    display:flex; 
+    justify-content: space-between;
+    
+}
+.logo{
+    color:#F9FAF8;
+    Font-size: 24px;
+    padding:8px;
+    padding-left:250px;
+    margin-top:8px;
+}
+
+.top-right ul{
+    display:flex;
+    color:#F9FAF8;
+    justify-content: space-evenly;
+    padding:8px;
+    padding-right:250px;
+    gap:15px;
+    font-size: 16px;
+    margin-top: 8px;
+    cursor:pointer;
+}
+
+.hero{
+    display:flex;
+    margin-top:80px;
+    justify-content:center;
+   
+  
+}
+.hero-main{
+   font-size:24px;
+}
+.main-text{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    width:450px;
+    gap:10px;
+    margin-right:10px;
+    margin-bottom:30px;
+}
+.main-text p {
+    width:400px;
+    height:100px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self:flex-start;
+}
+.hero-sc{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    gap:10px;
+}
+.main-heading{
+    align-self: center;
+    
+}
+.main-heading p {
+    font-size: 35px ;
+    font-weight:bold;
+}
+.imgs-and-txts ul {
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+.imgs-and-txts ul li p{
+    width:200px;
+}
+.imgs-and-txts ul li img{
+    border-width:2px;
+    border-color: #3882f6;
+    border-style:solid;
+    border-radius:12px;
+}
+.quote-section{
+    display:flex;
+    flex-direction:column;
+    margin-top: 40px;
+    Background-color: #E5E7EB;
+}
+.quote{
+    align-self: center;
+    
+}
+.quote p {
+    padding:10px;
+    font-size: 36px;
+    Color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width:900px;
+}
+.author{
+    align-self: center;
+    margin-left:400px;
+    margin-bottom:15px;
+    font-size:large;
+}
+.action{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: center;
+    margin:15px;
+    padding:10px;
+    gap:20px;
+}
+.action button{
+    border-color:white;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    margin-top:10px;
+    padding:15px;
+    color:white;
+    
+}
